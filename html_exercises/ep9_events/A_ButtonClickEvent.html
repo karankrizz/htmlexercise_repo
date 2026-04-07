@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title> Button Click Event</title>
+    <style>
+        .Pill{
+
+            padding: 12px 30px;   
+            border: none;
+            border-radius: 50px;   
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 16px;
+            ;
+
+        } 
+        .red {
+            background: linear-gradient(to right, #F44336, #B71C1C);
+        }
+
+         .blue {
+           background: linear-gradient(to right, #2196F3, #0D47A1);
+        }
+
+        .container1 {
+            display: flex;
+            justify-content: center;  
+            gap: 20px;                
+            margin-top: 40px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+       <h1 style="text-align: center;">
+         Choose One  
+       </h1>              
+    <div class="container1">
+        <button
+           id="button1"
+           class="Pill red"
+           onclick="console.log('study hard !!!')"
+           ondblclick="console.log('Google Ceo ')"
+           >  Red Pill    
+         
+        </button>
+
+    
+        <button
+            id="button2"
+            class="Pill blue"
+            onclick="console.log('scroll Instagram all day!!!')"
+            ondblclick="console.log('Life ah tholachutiyeda ')"
+            >  Blue Pill    
+          
+        </button>
+
+    </div>
+
+
+
+
+</body>
+</html>
