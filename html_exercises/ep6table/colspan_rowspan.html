@@ -2,9 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="/html_exercises/ep6table/colspan_rowspan.css">
 </head>
 
 <body>
@@ -13,45 +12,45 @@
   </div>
 
   <div class="example">
-    <table border="2" >
-      <thead >
-        <tr  style="background-color: blue;color: white;">
+    <table class="container1">
+      <thead>
+        <tr class="bg-color-blue">
           <th rowspan="2">SESSION</th>
           <th rowspan="2">Food</th>
-          <th colspan="2">FOOD price</th>
+          <th colspan="2" style="padding: 20px;">FOOD price </th>
         </tr>
         <tr>
-          <th style="background-color: rgb(255, 0, 0); color: white;">Quantity</th>
-          <th style="background-color: gold ; color: black;">Price</th>
+          <th class="bg-color-red">Quantity</th>
+          <th class="bg-color-gold">Price</th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
-          <th rowspan="3" style="background-color: rgb(255, 0, 255); color: white;">MORNING</td>
-          <td style="background-color: darkorange;color: white;">idly</td>
-          <td style="background-color: darkorange;color: white;">4</td>
-          <td style="background-color: darkorange;color: white;">10</td>
+          <th rowspan="3" class="bg-color-purple">MORNING</td>
+          <td class="bg-color-orange">idly</td>
+          <td class="bg-color-orange">4</td>
+          <td class="bg-color-orange">10</td>
         </tr>
         <tr>
-          <td style="background-color: darkorange;color: white;">tea</td>
-          <td style="background-color: darkorange;color: white;">1</td>
-          <td style="background-color: darkorange;color: white;">15</td>
+          <td class="bg-color-orange">tea</td>
+          <td class="bg-color-orange">1</td>
+          <td class="bg-color-orange">15</td>
         </tr>
         <tr>
-          <td style="background-color: darkorange;color: white;">vadai</td>
-          <td style="background-color: darkorange;color: white;">2</td>
-          <td style="background-color: darkorange;color: white;">12</td>
+          <td class="bg-color-orange">vadai</td>
+          <td class="bg-color-orange">2</td>
+          <td class="bg-color-orange">12</td>
         </tr>
-      
+
       </tbody>
-        <tfoot >
-           <tr>
-          <th colspan="3" style="background-color: rgb(0, 4, 4); color: white;"> TOTAL</th>
-          <td  style="background-color: green; color: white;"> 79 </td>
+      <tfoot>
+        <tr>
+          <th colspan="3" class="bg-color-black"> TOTAL</th>
+          <td class="bg-color-green"> 79 </td>
         </tr>
-        </tfoot>
-       
+      </tfoot>
+
     </table>
   </div>
 </body>
